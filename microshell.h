@@ -15,4 +15,11 @@
 
 /* Prototypes */
 
+
+typedef struct built_ins
+{
+	char *nombre;
+	int (*func)(char **args, char *buffer);
+} built_ins;
+
 #endif /* _MICROSHELL_H_ */
