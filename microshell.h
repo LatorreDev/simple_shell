@@ -9,6 +9,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <strings.h>
+#include <string.h>
 #include <limits.h>
 #include <signal.h>
 
