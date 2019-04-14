@@ -12,6 +12,7 @@
 #include <string.h>
 #include <limits.h>
 #include <signal.h>
+#include <errno.h>
 
 /* Prototypes */
 
