@@ -17,4 +17,5 @@
 
 /* Prototypes */
 
+void ctrlc(int sig_num);
 #endif /* _MICROSHELL_H_ */
