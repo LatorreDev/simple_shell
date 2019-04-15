@@ -15,8 +15,7 @@ int main(void)
 	int another_status;
 	int valid_exec;
 
-	signal (SIGINT, ctrlc);
-
+	signal(SIGINT, ctrlc);
 	while (1)
 	{
 		write(1, "$ ", 2);
@@ -47,6 +46,5 @@ int main(void)
 		}
 		free(buffer);
 	}
-
 	return (0);
 }
