@@ -1,0 +1,58 @@
+.TH SIMPLE SHELL (1) "15 April 2019" "v 1.0" "micro_shell Man Page"
+.SH NAME
+    micro_shell - a simple command line
+.SH SYNOPSIS
+.B  micro_shell
+.I  COMMAND [OPTION(S)]
+
+.SH DESCRIPTION
+    micro_shell is a command language interpreter that executes commands read
+    from the standard input or from a file. Also incorporates useful features
+    from the C language.
+    micro_shell is intended to be a conformant implementation of the Shell and
+    Utilities portion of the IEEE POSIX specification (IEEE Standard 1003.1).
+    Shell can be configured to be POSIX-conformant by default.
+
+
+.I COMMAND
+
+   When the micro_shell is launched, the prompt is ready for reads standar input,
+   then the instruccions are interpreted and executed by the micro_shell
+
+.PP
+micro_shell has two builtinin commands it also integrates with other commands
+that can be located in the PATH. The output of micro_shell is to replicate
+exactly as the shell 'sh' or 'bash'.
+
+.I OPTION(S)
+   the micro_shell allows some options to execute:
+
+.B SHELL
+
+.B
+.PP
+
+
+.SH BUILT-INS
+
+.PP
+.B The micro Shell have two builtins development
+
+.PP
+
+(env) - display all of the environment variables with their values.
+
+.PP
+
+(exit) - For exit of the shell user can utilize the command: "exit" this one
+       exits program with status 0.
+
+.SH BUGS
+
+On verification
+
+.SH AUTHORS
+
+David LaTorre
+
+Javier Cañón
