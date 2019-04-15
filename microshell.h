@@ -18,4 +18,5 @@
 /* Prototypes */
 
 void ctrlc(int sig_num);
+extern char **environ;
 #endif /* _MICROSHELL_H_ */
