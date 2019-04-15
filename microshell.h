@@ -12,14 +12,11 @@
 #include <string.h>
 #include <limits.h>
 #include <signal.h>
+#include <errno.h>
+#include <signal.h>
 
 /* Prototypes */
 
-
-typedef struct built_ins
-{
-	char *nombre;
-	int (*func)(char **args, char *buffer);
-} built_ins;
-
+void ctrlc(int sig_num);
+extern char **environ;
 #endif /* _MICROSHELL_H_ */
