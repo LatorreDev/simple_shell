@@ -25,9 +25,8 @@ int main(void)
 			exit(-1);
 		}
 
-		token = strtok(buffer, " \n\t");	
-		exit_func (buffer);
-
+		token = strtok(buffer, " \n\t");
+		exit_func(buffer);
 		if (fork() == 0)
 		{
 		valid_exec = execve(token, argv, NULL);
