@@ -8,8 +8,11 @@
 
 int exit_func(char *my_str)
 {
+	char *buffer = NULL;
+
 	if (_strcmp(my_str, "exit") == 0)
 	{
+		free(buffer);
 		exit(0);
 	}
 	return (0);
