@@ -7,6 +7,6 @@
 void ctrlc(int sig_num)
 {
 	(void) sig_num;
-	write (1, "\n$ ", 3);
+	write(1, "\n$ ", 3);
 	fflush(stdout);
 }
