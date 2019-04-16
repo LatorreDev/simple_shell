@@ -7,13 +7,9 @@
 
 int main(void)
 {
-	char *buffer = NULL;
+	char *buffer = NULL, *argv[] = {"", NULL}, *token;
 	size_t len = 0;
-	int status;
-	char *argv[] = {"", NULL};
-	char *token;
-	int another_status;
-	int valid_exec;
+	int status, another_status, valid_exec;
 
 	signal(SIGINT, ctrlc);
 	while (1)
@@ -28,7 +24,9 @@ int main(void)
 			free(buffer);
 			exit(-1);
 		}
-		token = strtok(buffer, " \n\t");
+
+		token = strtok(buffer, " \n\t");	
+		exit_func (buffer);
 
 		if (fork() == 0)
 		{
