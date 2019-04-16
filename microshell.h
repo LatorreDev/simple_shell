@@ -19,4 +19,6 @@
 
 void ctrlc(int sig_num);
 extern char **environ;
+int exit_func (char *my_str);
+int _strcmp(char *s1, char *s2);
 #endif /* _MICROSHELL_H_ */
