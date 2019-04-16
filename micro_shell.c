@@ -17,6 +17,7 @@ int main(void)
 		write(1, "$ ", 2);
 		buffer = NULL;
 		status = getline(&buffer, &len, stdin);
+		free(buffer);
 
 		if (status == -1)
 		{
