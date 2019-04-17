@@ -4,3 +4,4 @@ env
 
 shell
 generate-autors.sh
+my_path.c
