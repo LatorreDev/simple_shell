@@ -27,6 +27,13 @@ exactly as the shell 'sh' or 'bash'.
 .I OPTION(S)
    the micro_shell allows some options to execute:
 
+   You can execute every command typing the preceding /bin/ folder
+
+.B   Example:
+.I /bin/pwd
+
+   to show the current directory
+
 .B SHELL
 
 .B
@@ -40,19 +47,13 @@ exactly as the shell 'sh' or 'bash'.
 
 .PP
 
-(env) - display all of the environment variables with their values.
+(ctrl + D) - close the shell.
 
 .PP
 
 (exit) - For exit of the shell user can utilize the command: "exit" this one
        exits program with status 0.
 
-.SH BUGS
-
-On verification
-
 .SH AUTHORS
 
-David LaTorre
-
-Javier Cañón
+David Latorre
