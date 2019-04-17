@@ -5,6 +5,14 @@ micro_shell is the user interface to communicate with the operative system servi
 ### Requirements
 * Gcc (gnu compiler collection) version 4+
 
+### Included .c source code
+* microshell.h - For libraries and prototypes
+* micro_shell.c - main code for the microshell
+* _strcmp.c - source code for string compare
+* _strconcat.c - source code for concatenate strings
+* ctrlc.c - source code for avoid the ctrl+c
+* exit.c - source code for implement the exit function to close the micro shell
+
 ### Compiling
 ```
 gcc -g -Wall -Werror -pedantic *.c -o shell --debug
